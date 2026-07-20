@@ -1,0 +1,4 @@
+interface:
+  display_name: "QA Skill"
+  short_description: "One-question requirement discovery."
+  default_prompt: "Use qa-skill to clarify this request one question at a time, then produce a plan once the important requirements are understood."
