@@ -37,6 +37,19 @@ Ask a question only if its answer would materially change the design or implemen
 
 During clarification, respond with only the next question and any minimal context needed to make it unambiguous.
 
+When a question presents two or more options, proactively explain the differences between them in the same turn. Keep the comparison concise and decision-relevant: state what each option means, its main tradeoff or consequence, and when it is the better fit. Do not wait for the user to ask how the options differ. These explanations are context for the single question, not additional questions.
+
+Use a compact format when helpful:
+
+```text
+先确认一个点：
+
+你希望选择 A 还是 B？
+
+- A：……；更适合……
+- B：……；更适合……
+```
+
 Avoid:
 
 - multi-question lists
